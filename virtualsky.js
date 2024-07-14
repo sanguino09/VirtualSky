@@ -294,7 +294,7 @@ function VirtualSky(input){
 	this.fullscreen = false;			// Should it take up the full browser window
 	this.transparent = false;			// Show the sky background or not
 	this.fps = 10;						// Number of frames per second when animating
-	this.credit = (location.host == "alejandro.global" && location.href.indexOf("/embed") < 0) ? false : true;
+	this.credit = (location.host == "lco.global" && location.href.indexOf("/embed") < 0) ? false : true;
 	this.callback = { geo:'', mouseenter:'', mouseout:'', contextmenu: '', cursor: '', click:'' };
 	this.lookup = {};
 	this.keys = [];
